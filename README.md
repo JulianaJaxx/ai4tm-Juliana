@@ -1,6 +1,6 @@
 # AI4TM - AI for Marketing Masterclass
 
-Content, notebooks, and guides for the AI for Marketing (AI4TM) masterclass — 6 sessions covering AI fundamentals, evaluation, compliance, synthetic data, knowledge graphs, and agentic workflows.
+Content, notebooks, and guides for the AI for Marketing (AI4TM) masterclass — 6 weeks covering AI fundamentals, evaluation, compliance, synthetic data, knowledge graphs, and agentic workflows.
 
 ## 🚀 Getting Started (Low-Cost, No Local Install)
 
@@ -35,20 +35,20 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 
 ## 📚 Course Structure
 
-### Session 1: Essential Concepts ✅ Setup Complete
+### Week 2: Essential Concepts ✅ Setup Complete
 **Topics**: Neural networks, attention, tokenization, embeddings
 **Approach**: Production failure modes (light theory)
 **Content**:
 - [Setup Guide (Notebook)](week_2/lesson08_setup_guide.ipynb) - Colab + Gemini API + GitHub
 - [Token Cost Guide (Notebook)](week_2/lesson09_token_cost_guide.ipynb) - Estimate cost before running a batch job
 
-### Session 2: Evaluation
+### Week 3: Evaluation
 **Topics**: Regression, classification, semantic search
 **Content**:
 - [Evaluation Template (Notebook)](week_3/lesson13_evaluation_template.ipynb) - Accuracy, precision, recall, F1, confusion matrix
 - [Human-in-the-Loop Validation (Notebook)](week_3/lesson12_human_in_the_loop.ipynb) - BLEU, ROUGE, LLM-as-judge, and deciding where a person needs to check the model's work
 
-### Session 3: Compliance
+### Week 4: Compliance
 **Topics**: AI compliance and regulatory considerations
 **Content**:
 - **What is the EU AI Act, and Why You Should Care** - Risk categories, provider vs. deployer, the 2026 Digital Omnibus timeline, GDPR overlap (Circle platform)
@@ -58,22 +58,22 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 - [Protecting PII When You Use AI (Notebook)](week_4/lesson17_pii_protection.ipynb) - What counts as PII, redacting it before it reaches a prompt, scrubbing a dataframe before an API call
 - [Finding Risk Points in an AI Pipeline (Notebook)](week_4/lesson16_pipeline_risk_points.ipynb) - Applying DLP principles across a full pipeline, spot-the-vulnerability exercise
 
-### Session 4: Synthetic Data
+### Week 5: Synthetic Data
 **Topics**: Generating and using synthetic data for marketing
 **Content**:
 - [Synthetic Data Pipeline (Notebook)](week_5/synthetic_data_pipeline.ipynb) - Preprocessing a table, training and tuning a synthetic data generator, and evaluating the synthetic output against the original
 
-### Session 5: Knowledge Graphs
+### Week 6: Knowledge Graphs
 **Topics**: Nodes, edges, and Cypher; turning a set of documents into a graph with an LLM and merging the duplicates it produces; what a graph answers that a table struggles with; GraphRAG and checking whether an answer is actually grounded in the graph
 **Content**:
 - [Setup: your knowledge graph environment (Notebook)](week_6/setup_guide.ipynb) - Neo4j AuraDB Free signup, connecting the graph database, and a swappable `LLM_PROVIDER` config so the rest of the week's notebook can switch model providers by changing one value
 - [Building and querying a knowledge graph (Notebook)](week_6/knowledge_graph_pipeline.ipynb) - Extracting entities and relationships from a set of internal documents, merging duplicate entities, loading and querying in Cypher, and GraphRAG with a groundedness check
 
-### Session 6: Agentic Workflows
+### Week 7: Agentic Workflows
 **Topics**: Search intent taxonomies, clustering a search performance export into content gaps, an agent (tools + a loop) that reads that table, generating a landing page brief and evaluating it against the Week 3 template
 **Content**:
 - [Building an agentic content pipeline (Notebook)](week_7/agentic_content_pipeline.ipynb) - Rebuilding a compact content-gap table, then a hand-written tool-calling loop (three read-only tools, two visible stopping conditions) that turns it into grounded content recommendations
-- [Generating and evaluating a landing page brief (Notebook)](week_7/landing_page_brief_generator.ipynb) - A guardrailed brief generator for one content gap, scored by reusing Session 2's evaluation template against a mix of LLM-judged and objectively-recomputed criteria
+- [Generating and evaluating a landing page brief (Notebook)](week_7/landing_page_brief_generator.ipynb) - A guardrailed brief generator for one content gap, scored by reusing Week 3's evaluation template against a mix of LLM-judged and objectively-recomputed criteria
 
 ## 🛠️ Tools Used
 
@@ -91,8 +91,8 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 
 ## 🤝 For Students
 
-### Before Each Session
-1. Open the session notebook in Colab
+### Before Each Week
+1. Open that week's notebook in Colab
 2. Make sure your API key is in Secrets (🔑 icon)
 3. Run the setup cells
 
@@ -120,4 +120,4 @@ Post in the Circle community or open an issue in this repository.
 
 ---
 
-**Ready to learn AI for Marketing? Start here:** [Session 1 Setup Guide](week_2/lesson08_setup_guide.ipynb) 🎯
+**Ready to learn AI for Marketing? Start here:** [Week 2 Setup Guide](week_2/lesson08_setup_guide.ipynb) 🎯
