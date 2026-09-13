@@ -116,8 +116,8 @@ Most learners should use Google Colab (the default path).
 
 ##  Questions?
 
-Post in the Circle community or open an issue in this repository.
+Bring them to the office hours or use your course space to post them :)
 
 ---
 
-**Ready to learn AI for Marketing? Start here:** [Week 2 Setup Guide](week_2/lesson08_setup_guide.ipynb) 🎯
+**Ready to learn AI for Marketing? Start here:** [Week 2 Setup Guide](week_2/lesson08_setup_guide.ipynb)
