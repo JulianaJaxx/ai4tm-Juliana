@@ -24,10 +24,10 @@ This course uses **Google Gemini's pay-as-you-go API**. A genuine no-card free t
 
 ### What You Get
 
-✅ Google Colab - Run code in your browser, no installation
-✅ Gemini API - low pay-as-you-go cost on the lightweight models this course uses (billing must be enabled)
-✅ GitHub - Save and share your work
-✅ Free GPUs in Colab (a separate Colab feature — unaffected by the Gemini API billing change above)
+- Google Colab - Run code in your browser, no installation
+- Gemini API - low pay-as-you-go cost on the lightweight models this course uses (billing must be enabled)
+- GitHub - Save and share your work
+- Free GPUs in Colab (a separate Colab feature — unaffected by the Gemini API billing change above)
 
 ### Privacy Note
 
@@ -35,7 +35,7 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 
 ## Course Structure
 
-### Week 2: Essential Concepts ✅ Setup Complete
+### Week 2: Essential Concepts
 **Topics**: Neural networks, attention, tokenization, embeddings
 **Approach**: Production failure modes (light theory)
 **Content**:
