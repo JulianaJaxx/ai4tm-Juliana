@@ -2,7 +2,7 @@
 
 Content, notebooks, and guides for the AI for Marketing (AI4TM) masterclass — 6 weeks covering AI fundamentals, evaluation, compliance, synthetic data, knowledge graphs, and agentic workflows.
 
-## 🚀 Getting Started (Low-Cost, No Local Install)
+## Getting Started (Low-Cost, No Local Install)
 
 This course uses **Google Gemini's pay-as-you-go API**. A genuine no-card free tier still exists in most regions, including the US — but this course has everyone enable billing anyway, everywhere, because billed ("Paid tier") usage gets Google's stronger data-handling terms (skips human review, isn't used for training), not because Google requires it outside the EEA, UK, and Switzerland, where billing genuinely is mandatory. Usage on the lightweight models this course uses runs at low, pay-as-you-go rates (fractions of a cent per request is typical, but confirm current pricing before you start — Google changes it). Gemini isn't available in mainland China or Hong Kong.
 
@@ -29,11 +29,11 @@ This course uses **Google Gemini's pay-as-you-go API**. A genuine no-card free t
 ✅ GitHub - Save and share your work
 ✅ Free GPUs in Colab (a separate Colab feature — unaffected by the Gemini API billing change above)
 
-### ⚠️ Privacy Note
+### Privacy Note
 
 Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or used to improve models. Google's terms say billed ("Paid tier") Gemini usage is not used for training and skips human review for that purpose — check the "Paid tier" badge in AI Studio to confirm which applies to your key, don't assume. Either way: **only use public, synthetic, or anonymized data in this course.** Never send confidential or client data.
 
-## 📚 Course Structure
+## Course Structure
 
 ### Week 2: Essential Concepts ✅ Setup Complete
 **Topics**: Neural networks, attention, tokenization, embeddings
@@ -75,7 +75,7 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 - [Building an agentic content pipeline (Notebook)](week_7/agentic_content_pipeline.ipynb) - Rebuilding a compact content-gap table, then a hand-written tool-calling loop (three read-only tools, two visible stopping conditions) that turns it into grounded content recommendations
 - [Generating and evaluating a landing page brief (Notebook)](week_7/landing_page_brief_generator.ipynb) - A guardrailed brief generator for one content gap, scored by reusing Week 3's evaluation template against a mix of LLM-judged and objectively-recomputed criteria
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **Google Colab** (default) - Cloud-based notebooks, no installation
 - **Google Gemini API** (default, low-cost pay-as-you-go, billing required) - AI model access
@@ -83,13 +83,13 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 
 **Already have OpenAI or Anthropic API?** You can use those instead — see the optional section in the setup notebook.
 
-## 📖 For Instructors
+## For Instructors
 
 - All notebooks designed for Google Colab (one-click from GitHub)
 - Local setup available as optional/advanced path
 - Students work in their own fork, never as collaborators on this repository — nobody but the instructor team can push to it, forking or not. `main` is branch-protected (PR review required, no force-push or deletion).
 
-## 🤝 For Students
+##  For Students
 
 ### Before Each Week
 1. Open that week's notebook in Colab
@@ -102,7 +102,7 @@ Unpaid/free-quota AI usage (Google, OpenAI, etc.) may be reviewed by humans or u
 - **Watch your spend**: this course runs on billed usage, not the free tier — check pricing at [AI Studio](https://aistudio.google.com/apikey) and use the token cost guide before a big batch job
 - **No real data**: Only use public or made-up data
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - **Never commit API keys** - use Colab Secrets or `.env` files (local). See [week_4/lesson18_api_key_security.ipynb](week_4/lesson18_api_key_security.ipynb) for how keys leak and how to catch it.
 - This course has you enable billing on your Google account everywhere, even though a genuine no-card free tier still exists in most regions — billing is only Google-*required* in the EEA, UK, and Switzerland; elsewhere it's this course's own choice, for the data-handling benefit below
@@ -114,7 +114,7 @@ For experienced users who prefer local development, see the "Optional B: Local S
 
 Most learners should use Google Colab (the default path).
 
-## 📧 Questions?
+##  Questions?
 
 Post in the Circle community or open an issue in this repository.
 
